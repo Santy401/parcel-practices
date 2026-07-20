@@ -1,0 +1,26 @@
+{
+  "name": "parcel-practices",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "homepage": "https://github.com/Santy401/parcel-practices#readme",
+  "bugs": {
+    "url": "https://github.com/Santy401/parcel-practices/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santy401/parcel-practices.git"
+  },
+  "license": "ISC",
+  "author": "Santy401",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel serve --port 8080 src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4",
+    "posthtml-include": "^2.0.1"
+  }
+}
